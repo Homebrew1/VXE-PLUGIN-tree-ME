@@ -1,0 +1,99 @@
+{
+  "_from": "vxe-table-plugin-virtual-tree-fl",
+  "_id": "vxe-table-plugin-virtual-tree-fl@0.6.10",
+  "_inBundle": false,
+  "_integrity": "sha512-tYM/8mPypM0V7C20Yn7iVzZF53L3oK7HboJfhB0AMe/jbxUghP6HRkZsag2GKqrpgBXranLel81/UJOQaKBL6A==",
+  "_location": "/vxe-table-plugin-virtual-tree",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vxe-table-plugin-virtual-tree",
+    "name": "vxe-table-plugin-virtual-tree",
+    "escapedName": "vxe-table-plugin-virtual-tree",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://10.18.7.53:4873/vxe-table-plugin-virtual-tree/-/vxe-table-plugin-virtual-tree-0.6.10.tgz",
+  "_shasum": "f6258336983a6c27f10daeaca3dace28c3d44dc5",
+  "_spec": "vxe-table-plugin-virtual-tree",
+  "author": {
+    "name": "shanshan10",
+    "email": "1746767872@qq.com"
+  },
+  "bugs": {
+    "url": "https://github.com/x-extends/vxe-table-plugin-virtual-tree/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "基于 vxe-table 的表格插件，实现简单的虚拟树表格（属于内测阶段）",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/runtime": "^7.12.5",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "del": "^6.0.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "markdown-doctest": "^1.1.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.5",
+    "vue": "^2.6.12",
+    "vxe-table": "^3.3.9",
+    "xe-utils": "^3.3.0"
+  },
+  "files": [
+    "dist",
+    "*.ts",
+    "*.d.ts",
+    "style.scss"
+  ],
+  "homepage": "https://github.com/x-extends/vxe-table-plugin-virtual-tree#readme",
+  "jsdelivr": "dist/index.umd.js",
+  "keywords": [
+    "vxe-table-plugin-virtual-tree"
+  ],
+  "license": "MIT",
+  "main": "dist/index.common.js",
+  "name": "vxe-table-plugin-virtual-tree-fl",
+  "peerDependencies": {
+    "vxe-table": "^2.10.0 || ^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-extends/vxe-table-plugin-virtual-tree.git"
+  },
+  "scripts": {
+    "lib": "gulp build"
+  },
+  "style": "dist/style.css",
+  "typings": "index.ts",
+  "unpkg": "dist/index.umd.js",
+  "version": "0.0.01"
+}
