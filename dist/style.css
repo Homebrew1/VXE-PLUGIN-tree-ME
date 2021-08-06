@@ -4,3 +4,7 @@
 
 .vxe-virtual-tree.has--tree-line .vxe-body--column {
   border-bottom-color: transparent; }
+
+.vxe-checkbox .vxe-checkbox--label, .vxe-radio-button .vxe-radio--label, .vxe-radio .vxe-radio--label, .vxe-table--render-default .vxe-body--column.col--ellipsis:not(.col--actived)>.vxe-cell, .vxe-table--render-default .vxe-footer--column.col--ellipsis:not(.col--actived)>.vxe-cell, .vxe-table--render-default .vxe-header--column.col--ellipsis:not(.col--actived)>.vxe-cell {
+    overflow: inherit;
+}
